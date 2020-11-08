@@ -13,17 +13,15 @@ export default function Navbar() {
 
           
 
-          <div className="list-items">
+          <div className="nav-items">
             <ul>
-              <li className="icon">1</li>
-              <li className="icon">2</li>
-              <li className="icon">3</li>
-              <li className="icon">4</li>
-              <li className="icon">5</li>
-              <li className="icon">6</li>
-              <li className="icon">7</li>
-              <li className="icon">8</li>
-              <li className="icon">9</li>
+              <li className="icon"><a href="#home">Home</a></li>
+              <li className="icon"><a href="#about">About us</a></li>
+              <li className="icon"><a href="#get">Get</a></li>
+              <li className="icon"><a href="#partners">Partners</a></li>
+              <li className="icon"><a href="#roadmap">Roadmap</a></li>
+              <li className="icon"><a href="#explorer">Explorer</a></li>
+              <li className="icon"><a href="#contact">Contact</a></li>
             </ul>
           </div>
           <div className="item-on">
