@@ -1,57 +1,138 @@
-  .sidebar-mobile {
-    height: 12vh;
-    width: 100vw;
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .sidebar-desktop {
+    height    : 260px;
+    width     : 100%;
+    background: linear-gradient(180deg, rgba(8, 135, 212, 1) 0%, rgba(8, 135, 212, .5) 100%);
+    position  : absolute;
+    z-index   : -1;
+    font-size : 2rem;
   }
 
-  nav {
-    background-color: inherit;
-  }
-
-  .menu-toggle {
-    background-color: brown;
-    margin: 16px 0 16px 0;
-    width: 40px;
-    height: 100px;
-  }
-
-  .item-on {
-    background-color: inherit;
-    width: 16rem;
-    height: 16rem;
-    border-radius: 50%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .item-on .item-selected {
-    position: relative;
-    left: 24px;
-    background: #fff;
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
-  }
-
-  ul {
-    margin-bottom: 32px;
-    display: flex;
-  }
-
-  ul li {
+  .sidebar-desktop>.page-selected {
+    position        : relative;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    width           : 14rem;
+    height          : 14rem;
+    border-radius   : 50%;
     background-color: #fff;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    margin-bottom: 8px;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    
+    top             : 12%;
+    left            : 72.5%;
   }
 
+  .nav-bar {
+    position: relative;
+    z-index : 20;
+    display : flex;
+  }
+
+  .nav-bar>a>img {
+    position: relative;
+    top     : 16%;
+    left    : 6%;
+    width   : 6rem;
+    height  : 6rem;
+  }
+
+  .nav-bar>.nav-items>ul {
+    display: flex;
+  }
+
+  .nav-bar>.nav-items>ul>li {
+    display        : flex;
+    justify-content: space-between;
+    padding        : 8px;
+  }
+
+  .nav-bar>.nav-items>ul>li>a {
+    text-decoration: none;
+    color          : var(--font-primary);
+    text-align     : center;
+    font-weight    : bold;
+    padding-top    : 8px;
+    padding-bottom : 8px;
+    margin-top     : 8px;
+    margin-bottom  : 8px;
+    min-width      : 100px;
+    min-height     : 42px;
+    height         : 60px;
+  }
+
+  .nav-bar>.nav-items>ul>li>a:hover {
+    border-bottom: 2px solid #fff;
+  }
+
+  /* Style The Dropdown Button */
+  .dropbtn {
+    color           : #fff;
+    padding-top     : 8px;
+    padding-bottom  : 8px;
+    margin-top      : 18px;
+    margin-bottom   : 8px;
+    min-width      : 100px;
+    min-height     : 42px;
+    text-align      : center;
+    font-size       : 2rem;
+    font-weight     : bold;
+    border          : none;
+    cursor          : pointer;
+    background-color: transparent;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display : inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display         : none;
+    position        : absolute;
+    background-color: #f9f9f9;
+    min-width       : 158px;
+    border-radius   : 4px;
+    box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index         : 1;
+    transition      : all .3s;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color          : black;
+    font-size      : 1.8rem;
+    padding        : 12px 16px;
+    text-decoration: none;
+    display        : block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+
+  @media (max-width: 1440px) {
+    .sidebar-desktop>.page-selected {
+      left: 77%;
+    }
+  }
+  @media (max-width: 1024px) {
+    .sidebar-desktop>.page-selected {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .sidebar-desktop {
+      display: none;
+    }
+  }

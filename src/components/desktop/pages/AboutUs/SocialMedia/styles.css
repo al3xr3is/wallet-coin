@@ -1,0 +1,20 @@
+.container-social-media {
+  height: 100vh;
+  background: url('../../../../../assets/img/bkg-cinza-cortado.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-social-media > h1,
+.container-social-media > p {
+  color: var(--font-primary);
+}
+
+.container-social-media > h1 {
+  font-size: 8rem;
+  text-align: center;
+}
+.container-social-media > p {
+  font-size: 2rem;
+  text-align: center;
+}

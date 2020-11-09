@@ -1,0 +1,47 @@
+.container-wallet {
+  height: 100vh;
+  background: url('../../../../../assets/img/white-bkg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--font-secondary);
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.container-wallet h1 {
+  font-size: 8rem;
+}
+
+.grid-wallet {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: 
+  "card-1 card-2"
+  "card-3 card-4";
+  gap: 16px;
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.grid-wallet > .card-1 {
+  grid-area: "card-1";
+}
+.grid-wallet > .card-2 {
+  grid-area: "card-2";
+}
+.grid-wallet > .card-3 {
+  grid-area: "card-3";
+}
+.grid-wallet > .card-4 {
+  grid-area: "card-4";
+}
+
+.grid-wallet > a > .card {
+  background-color: #0a74cb7a;
+  width: 320px;
+  height: 180px;
+}
+

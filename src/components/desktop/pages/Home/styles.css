@@ -1,4 +1,72 @@
 .container-home {
-  height: 100vh;
-  background-color: brown;
+  background       : url('../../../../assets/img/bkg-home-cortado.png');
+  background-repeat: no-repeat;
+  background-size  : cover;
+  height           : 100vh;
+  font-size        : 2rem;
+  text-align       : center;
+}
+
+.container-home>.aside>h1 {
+  font-size: 8rem;
+}
+
+.container-home>.aside>p {
+  margin-bottom: 20px;
+}
+
+.container-home>.aside {
+  position: relative;
+  top: 10%;
+  left: 60%;
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+  margin-top    : 35px;
+  width         : 35%;
+  padding: 24px;
+}
+
+.container-home>.aside>.button {
+  color: #fff;
+  font-size: 2.4rem;
+  background-color: #29aee5;
+  border-radius   : 3.6rem;
+  width           : 20rem;
+  height          : 6rem;
+  padding: 8px;
+  text-decoration : none;
+  text-align: center;
+  transition      : background-color .3s;
+}
+
+.container-home>.aside>.button:hover {
+  background-color: #0a75cd;
+}
+
+@media (max-width: 1440px) {
+  .container-home {
+    background       : url('../../../../assets/img/bkg-home-cortado-1440.png');
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 100vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-home {
+    background       : url('../../../../assets/img/bkg-home-cortado-1024.png');
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-home {
+    background       : url('../../../../assets/img/bkg-home-cortado-768.png');
+    background-repeat: no-repeat;
+    background-size  : cover;
+    height           : 100vh;
+  }
 }

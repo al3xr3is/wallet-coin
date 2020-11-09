@@ -1,0 +1,66 @@
+.container-roadmap {
+  height: 100vh;
+  background: url('../../../../../assets/img/bkg-t1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-roadmap > h1,
+.container-roadmap > p {
+  color: var(--font-secondary);
+}
+
+.container-roadmap > h1 {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.container-roadmap > p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container-roadmap > .row > .card {
+  background-color: #0a74cb7e;
+  width: 404px;
+  height: 158px;
+  border-radius: 40px 10px 40px 10px;
+}
+
+.container-roadmap > .row > .circle {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  border: 2px solid #282828;
+  background-color: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cotainer-roadmap > .row hr {
+  display: relative;
+  left: 50%;
+  top: 50%;
+}
+
+.container-roadmap > .row-1 {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.container-roadmap > .row-1 > .card {
+  background-color: #0a74cb7e;
+  width: 404px;
+  height: 158px;
+  border-radius: 40px 10px 40px 10px;
+  margin: 0 32px 0 32px;
+}
+  
+.container-roadmap > .row {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px;
+}

@@ -1,0 +1,77 @@
+.container-team {
+  height: 100vh;
+  background: url('../../../../../assets/img/bkg-t1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-team {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: 
+  "card-1 card-2 card-3"
+  "card-4 card-5 card-6";
+  width: 70%;
+  gap: 16px;
+  margin: auto;
+}
+
+.grid-team > .card-1,
+.grid-team > .card-2,
+.grid-team > .card-3 {
+  background: url('../../../../../assets/img/team-card1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 262px;
+  height: 380px;
+}
+
+.grid-team > .card-4 > img,
+.grid-team > .card-5 > img,
+.grid-team > .card-6 > img {
+  width: 206px;
+  height: 170px;
+}
+
+.grid-team > .card-1 {
+  grid-area: "card-1";
+}
+.grid-team > .card-2 {
+  grid-area: "card-2";
+}
+.grid-team > .card-3 {
+  grid-area: "card-3";
+}
+.grid-team > .card-4 {
+  grid-area: "card-4";
+}
+.grid-team > .card-5 {
+  grid-area: "card-5";
+}
+.grid-team > .card-6 {
+  grid-area: "card-6";
+}
+
+.grid-team > .card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-team > h1,
+.container-team > p {
+  color: var(--font-secondary);
+}
+
+.container-team > h1 {
+  font-size: 8rem;
+  text-align: center;
+  margin: 16px 0 16px 0;
+}
+
+.container-team > p {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 16px;
+}

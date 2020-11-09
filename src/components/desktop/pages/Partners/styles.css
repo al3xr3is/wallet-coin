@@ -1,4 +1,42 @@
 .container-partners {
   height: 100vh;
-  background-color: darkgreen;
+  background: url('../../../../assets/img/gray-bkg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-partners > h1 {
+  font-size: 8rem;
+  text-align: center;
+  margin: 16px 0 16px 0;
+}
+
+.container-partners > p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container-partners > .partners-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+}
+
+.container-partners > .partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.container-partners > .partners > .partners-cards > a > .card-img {
+  width: 304px;
+  height: 132px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 16px;
 }

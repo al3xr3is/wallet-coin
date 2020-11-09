@@ -1,0 +1,9 @@
+.container-credit-card {
+  height: 100vh;
+  background: url('../../../../../assets/img/bkg-cinza-cortado.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
