@@ -1,6 +1,6 @@
 .container-coinspecs {
   height: 100vh;
-  background: url('../../../../../assets/img/bkg-cinza-cortado.png');
+  background: url('../../../../../assets/img/bkg-cinza-1920.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -57,13 +57,14 @@
 }
 
 .container-coinspecs > h1 {
-  margin-top: 16px;
+  padding-top: 4rem;
   font-size: 8rem;
   text-align: center;
 }
 
 .container-coinspecs > p {
-  font-size: 2rem;
+  padding: 4rem;
+  font-size: 3rem;
   text-align: center;
   margin: 16px 0 16px 0;
 }

@@ -1,5 +1,5 @@
 .container-home {
-  background       : url('../../../../assets/img/bkg-home-cortado.png');
+  background       : url('../../../../assets/img/bkg-home-cortado-1920.png');
   background-repeat: no-repeat;
   background-size  : cover;
   height           : 100vh;
@@ -12,18 +12,19 @@
 }
 
 .container-home>.aside>p {
+  font-size: 4rem;
   margin-bottom: 20px;
 }
 
 .container-home>.aside {
   position: relative;
-  top: 10%;
-  left: 60%;
+  top: 15%;
+  left: 50%;
   display       : flex;
   flex-direction: column;
   align-items   : center;
   margin-top    : 35px;
-  width         : 35%;
+  width         : 50%;
   padding: 24px;
 }
 

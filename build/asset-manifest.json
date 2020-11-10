@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d751e98.chunk.css",
+    "main.js": "/static/js/main.636b6349.chunk.js",
+    "main.js.map": "/static/js/main.636b6349.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.66d91ea9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.66d91ea9.js.map",
+    "static/js/2.1c95bd8c.chunk.js": "/static/js/2.1c95bd8c.chunk.js",
+    "static/js/2.1c95bd8c.chunk.js.map": "/static/js/2.1c95bd8c.chunk.js.map",
+    "static/js/3.3a14f0ef.chunk.js": "/static/js/3.3a14f0ef.chunk.js",
+    "static/js/3.3a14f0ef.chunk.js.map": "/static/js/3.3a14f0ef.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1d751e98.chunk.css.map": "/static/css/main.1d751e98.chunk.css.map",
+    "static/js/2.1c95bd8c.chunk.js.LICENSE.txt": "/static/js/2.1c95bd8c.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/static/media/white-bkg.f8955013.png",
+    "static/media/contact-icon-bitcointalk.a9b912a0.png": "/static/media/contact-icon-bitcointalk.a9b912a0.png",
+    "static/media/contact-icon-discord.fc396348.png": "/static/media/contact-icon-discord.fc396348.png",
+    "static/media/contact-icon-facebook.c95923d0.png": "/static/media/contact-icon-facebook.c95923d0.png",
+    "static/media/contact-icon-telegram.e7e52ea7.png": "/static/media/contact-icon-telegram.e7e52ea7.png",
+    "static/media/contact-icon-twitter.a6fbe55c.png": "/static/media/contact-icon-twitter.a6fbe55c.png",
+    "static/media/credit-card.7bd4cfa2.png": "/static/media/credit-card.7bd4cfa2.png",
+    "static/media/exchange-crex24.c7769461.png": "/static/media/exchange-crex24.c7769461.png",
+    "static/media/exchange-finexbox.452635dc.png": "/static/media/exchange-finexbox.452635dc.png",
+    "static/media/icon-00-logo.820cf4b9.png": "/static/media/icon-00-logo.820cf4b9.png",
+    "static/media/icon-coin-specs-01.390dfd6d.png": "/static/media/icon-coin-specs-01.390dfd6d.png",
+    "static/media/partners-arion.1d18b4fd.png": "/static/media/partners-arion.1d18b4fd.png",
+    "static/media/partners-finalmente.e4b9178b.png": "/static/media/partners-finalmente.e4b9178b.png",
+    "static/media/team-alex.476e5722.png": "/static/media/team-alex.476e5722.png",
+    "static/media/team-cryptocoderz.d848d31f.png": "/static/media/team-cryptocoderz.d848d31f.png",
+    "static/media/team-kobos.c396390f.png": "/static/media/team-kobos.c396390f.png",
+    "static/media/team-nikita.68b38745.png": "/static/media/team-nikita.68b38745.png",
+    "static/media/team-yohan.9fd13686.png": "/static/media/team-yohan.9fd13686.png",
+    "static/media/team-zoras.7d1233eb.png": "/static/media/team-zoras.7d1233eb.png",
+    "static/media/tracking-logo-mno.dd34fdcf.png": "/static/media/tracking-logo-mno.dd34fdcf.png",
+    "static/media/wallet-logo-linux.a9b32fe6.png": "/static/media/wallet-logo-linux.a9b32fe6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66d91ea9.js",
+    "static/js/2.1c95bd8c.chunk.js",
+    "static/css/main.1d751e98.chunk.css",
+    "static/js/main.636b6349.chunk.js"
+  ]
+}

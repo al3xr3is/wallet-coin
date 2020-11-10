@@ -1,13 +1,13 @@
 import React from 'react'
 import './styles.css'
 
-import Navbar from '../../../ui/Navbar'
-import RoadmapIcon from '../../../../../assets/img/roadmap-icon.png'
+// import RoadmapIcon from '../../../../../assets/img/roadmap-icon.png'
+import RoadmapLine from '../../../../../assets/img/roadmap-line.png'
 
 export default function Roadmap() {
   return (
     <div className="container-roadmap" id="roadmap">
-      <Navbar />
+      
       <h1>Roadmap</h1>
       <p>2020 - 2021</p>
 
@@ -16,17 +16,19 @@ export default function Roadmap() {
           <h2>Q1 2021</h2>
           <h3>Web Wallet / Android App</h3>
         </div>
+        <div className="spacer"></div>
         <div className="card card-2">
           <h2>Q3 2021</h2>
           <h3>Intgration of new partnerships and ledger software.</h3>
         </div>
       </div>
       <div className="row">
+        <img src={RoadmapLine} alt=""/>
+        {/* <div className="circle"><img src={RoadmapIcon} alt="" /></div>
         <div className="circle"><img src={RoadmapIcon} alt="" /></div>
         <div className="circle"><img src={RoadmapIcon} alt="" /></div>
         <div className="circle"><img src={RoadmapIcon} alt="" /></div>
-        <div className="circle"><img src={RoadmapIcon} alt="" /></div>
-        <div className="circle"><img src={RoadmapIcon} alt="" /></div>
+        <div className="circle"><img src={RoadmapIcon} alt="" /></div> */}
       </div>
       <div className="row">
         <div className="card card-3">

@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 
-import Navbar from '../../ui/Navbar'
+
 
 import PartnersArion from '../../../../assets/img/partners-arion.png'
 import PartnersFinalmente from '../../../../assets/img/partners-finalmente.png'
@@ -13,7 +13,7 @@ import TrackingMNO from '../../../../assets/img/tracking-logo-mno.png'
 export default function Partners() {
   return (
     <div className="container-partners" id="partners">
-      <Navbar />
+      
       <h1>Exchanges - Partners - Static Tracking</h1>
 
       <div className="partners">

@@ -1,14 +1,12 @@
 import React from 'react'
 import './styles.css'
 
-import Navbar from '../../../ui/Navbar'
-
 import CreditCardImg from '../../../../../assets/img/credit-card.png'
 
 export default function CreditCard() {
   return(
     <div className="container-credit-card" id="credit-card">
-      <Navbar />
+      
       <h1>Credit Card</h1>
       <h3>Final Coin</h3>
       <h3>Credit Card Request</h3>

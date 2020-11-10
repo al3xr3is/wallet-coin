@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../../ui/Navbar'
+
 import './styles.css'
 
 import Yohan from '../../../../../assets/img/team-yohan.png'
@@ -13,7 +13,7 @@ export default function Team() {
   return (
     <>
       <div className="container-team" id="team">
-        <Navbar />
+        
         <h1>Team</h1>
         <p>Here are the main people working to keep the project going</p>
 
@@ -39,17 +39,17 @@ export default function Team() {
           <div className="card card-4">
             <img src={Cryptocoders} alt="" />
             <h2>Cryptocoders</h2>
-            <h3>Wallet Developer</h3>
+            <p>Wallet Developer</p>
           </div>
           <div className="card card-5">
             <img src={Zoras} alt="" />
             <h2>Zoras</h2>
-            <h3>Designer</h3>
+            <p>Designer</p>
           </div>
           <div className="card card-6">
             <img src={Alex} alt="" />
             <h2>Al3x R3is</h2>
-            <h3>Web Developer</h3>
+            <p>Web Developer</p>
           </div>
         </div>
       </div>

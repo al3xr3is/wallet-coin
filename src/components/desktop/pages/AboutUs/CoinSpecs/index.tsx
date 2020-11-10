@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../../ui/Navbar'
 import './styles.css'
 
 import Icon1 from '../../../../../assets/img/icon-coin-specs-01.png'
@@ -13,9 +12,9 @@ export default function CoinSpecs() {
   return (
     <>
       <div className="container-coinspecs" id="coinspecs">
-        <Navbar />
+        
         <h1>Coin Specs</h1>
-        <p>Here you will find everything you need to know about Final Coin specifications, from its algorithm to the time of the blockchain.</p>
+        <p>Here you will find everything you need to know about Final Coin specifications, <br/> from its algorithm to the time of the blockchain.</p>
         <div className="grid-coinspecs">
           <div className="card card-1">
             <h2>MAX SUPPLY</h2>

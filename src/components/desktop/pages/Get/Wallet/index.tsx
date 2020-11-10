@@ -1,8 +1,6 @@
 import React from 'react'
 import './styles.css'
 
-import Navbar from '../../../ui/Navbar'
-
 import WalletWindows from '../../../../../assets/img/wallet-logo-windows.png'
 import WalletMac from '../../../../../assets/img/wallet-logo-mac.png'
 import WalletLinux from '../../../../../assets/img/wallet-logo-linux.png'
@@ -11,7 +9,7 @@ import WalletLedger from '../../../../../assets/img/wallet-logo-ledger.png'
 export default function Wallet() {
   return (
     <div className="container-wallet" id="wallet">
-      <Navbar />
+      
       <h1>Wallets</h1>
       <p>Download yout QT wallet here!</p>
 

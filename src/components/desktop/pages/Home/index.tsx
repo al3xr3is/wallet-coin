@@ -1,12 +1,11 @@
 import React from 'react'
-import './styles.css'
-
 import Navbar from '../../ui/Navbar'
+import './styles.css'
 
 export default function Home() {
   return (
     <div className="container-home" id="home">
-    <Navbar img="icon-01-home"/>
+    <Navbar />
       <div className="aside">
         <h1>Welcome</h1>
         <p>Final Coin is the cryptocurrency created as a branch of the Finalmente Global Group. We work to incorporate the latest trends and technologies to promote the Vision of “Success is Easy”. Let us show you how.</p>

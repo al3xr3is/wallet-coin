@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from '../../../ui/Navbar'
+
 import './styles.css'
 
 export default function WhatsIsFinalCoin() {
   return(
     <div className="container-what-is-final" id="what-is-final">
-      <Navbar img="icon-02-about"/>
       <h1>What is Final Coin</h1>
       <p>Final Coin is the cryptocurrency arm of the Finalmente Global Group. We are reaching out using new technologies to communities all over the world. Our main focus is targeting new and emerging markets where Final Coin can play a key role in integrating Cryptocurrency into everyday life. To create opportunities for success by using cryptocurrency and blockchain technology to secure a stable return on investment.</p>
 

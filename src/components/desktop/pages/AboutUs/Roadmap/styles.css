@@ -1,6 +1,6 @@
 .container-roadmap {
   height: 100vh;
-  background: url('../../../../../assets/img/bkg-t1.png');
+  background: url('../../../../../assets/img/bkg-branco-1920.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11,20 +11,37 @@
 }
 
 .container-roadmap > h1 {
+  padding-top: 6rem;
   font-size: 8rem;
   text-align: center;
 }
 
 .container-roadmap > p {
-  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 .container-roadmap > .row > .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   background-color: #0a74cb7e;
   width: 404px;
   height: 158px;
+  padding: 2rem;
   border-radius: 40px 10px 40px 10px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.container-roadmap > .row > .card > h2 {
+  margin-bottom: 2rem;
+}
+.container-roadmap > .row-1 > .card > h2 {
+  margin-bottom: 2rem;
 }
 
 .container-roadmap > .row > .circle {
@@ -39,10 +56,9 @@
   align-items: center;
 }
 
-.cotainer-roadmap > .row hr {
-  display: relative;
-  left: 50%;
-  top: 50%;
+.container-roadmap > .row-1 > .spacer {
+  display: block;
+  width: 14rem;
 }
 
 .container-roadmap > .row-1 {
@@ -52,11 +68,18 @@
 }
 
 .container-roadmap > .row-1 > .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   background-color: #0a74cb7e;
   width: 404px;
   height: 158px;
   border-radius: 40px 10px 40px 10px;
   margin: 0 32px 0 32px;
+  padding: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
 }
   
 .container-roadmap > .row {
