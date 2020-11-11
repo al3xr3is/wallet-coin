@@ -11,7 +11,7 @@ export default function Wallet() {
     <div className="container-wallet" id="wallet">
       
       <h1>Wallets</h1>
-      <p>Download yout QT wallet here!</p>
+      <p>Download your QT wallet here!</p>
 
       <div className="grid-wallet">
         <a href="https://github.com/" rel="noreferrer" target="_blank">
@@ -40,8 +40,8 @@ export default function Wallet() {
         </a>
       </div>
 
-      <h3>Do not forget:</h3>
-      <p>Exchange is not a wallet. Your coins are only safe when you have access to your private keys.</p>
+      <h2>Do not forget:</h2>
+      <p>Exchange is not a wallet. Your coins are only safe <br/> when you have access to your private keys.</p>
     </div>
   )
 }

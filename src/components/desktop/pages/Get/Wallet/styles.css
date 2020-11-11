@@ -6,11 +6,20 @@
   color: var(--font-secondary);
   font-size: 2rem;
   text-align: center;
-  text-decoration: none;
 }
 
-.container-wallet h1 {
+.container-wallet > h1 {
   font-size: 8rem;
+  padding-bottom: 1rem;
+}
+
+.container-wallet > h2 {
+  padding-top: 4rem;
+}
+
+.container-wallet > p {
+  font-size: 3rem;
+  padding-bottom: 4rem;
 }
 
 .grid-wallet {
@@ -20,10 +29,20 @@
   grid-template-areas: 
   "card-1 card-2"
   "card-3 card-4";
-  gap: 16px;
-  width: 600px;
+  width: fit-content;
   margin: auto;
-  padding: 20px;
+  gap: 3rem 1rem;
+}
+
+.grid-wallet > a {
+  display: flex;
+  flex-direction: column;  
+  text-decoration: none;
+}
+
+.grid-wallet > a > h2 {
+  color: var(--font-secondary);
+  padding-top: 2rem;
 }
 
 .grid-wallet > .card-1 {
@@ -43,5 +62,8 @@
   background-color: #0a74cb7a;
   width: 320px;
   height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 

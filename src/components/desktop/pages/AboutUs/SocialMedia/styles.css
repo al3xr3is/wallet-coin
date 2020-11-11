@@ -11,10 +11,17 @@
 }
 
 .container-social-media > h1 {
+  padding-top: 16rem;
   font-size: 8rem;
   text-align: center;
 }
 .container-social-media > p {
-  font-size: 2rem;
+  margin-top: 1rem;
+  font-size: 2.6rem;
   text-align: center;
+}
+
+.container-social-media > .container-carousel {
+  padding-top: 8rem;
+  transition: all .3s
 }

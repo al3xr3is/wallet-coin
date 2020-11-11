@@ -7,3 +7,25 @@
   text-align: center;
   text-decoration: none;
 }
+
+.container-credit-card > h1 {
+  font-size: 8rem;
+  padding-top: 4rem;
+}
+
+.container-credit-card > div {
+  padding: 3rem;
+}
+
+.container-credit-card > div > h2 {
+  font-weight: 500;
+}
+
+.container-credit-card > p {
+  padding: 2rem;
+}
+
+.container-credit-card > p > a {
+  text-decoration: none;
+  color: #62d8ff;
+}

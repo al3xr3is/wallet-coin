@@ -9,7 +9,7 @@
 .container-partners > h1 {
   font-size: 8rem;
   text-align: center;
-  margin: 16px 0 16px 0;
+  padding-top: 6rem;
 }
 
 .container-partners > p {
@@ -17,26 +17,38 @@
   text-align: center;
 }
 
-.container-partners > .partners-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 148px;
-}
-
 .container-partners > .partners {
+  margin-top: 6rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 20px;
 }
 
-.container-partners > .partners > .partners-cards > a > .card-img {
-  width: 304px;
-  height: 132px;
+.container-partners > .partners > .partners-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-partners > .partners > .partners-cards > h2 {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.container-partners > .partners > .partners-cards > .imgs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-partners > .partners > .partners-cards > .imgs > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
-  border-radius: 20px;
-  margin: 16px;
+  margin: 2rem;
+  width: 30rem;
+  height: 14rem;
+  border-radius: 1rem;
 }

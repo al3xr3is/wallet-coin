@@ -3,7 +3,7 @@ import './styles.css'
 
 
 
-import PartnersArion from '../../../../assets/img/partners-arion.png'
+import PartnersArion from '../../../../assets/img/partners-arion-.png'
 import PartnersFinalmente from '../../../../assets/img/partners-finalmente.png'
 import ExchangeCrex24 from '../../../../assets/img/exchange-crex24.png'
 import ExchangeFinexbox from '../../../../assets/img/exchange-finexbox.png'
@@ -19,7 +19,8 @@ export default function Partners() {
       <div className="partners">
         <div className="partners-cards">
           <h2>Exchange Listing</h2>
-          <a href="https://crex24.com/exchange/FINAL-BTC" target="_blank" >
+          <div className="imgs">
+          <a href="https://crex24.com/exchange/FINAL-BTC" rel="noreferrer" target="_blank" >
             <div className="card-img">
               <img src={ExchangeCrex24} alt="Exchange Crex24" />
             </div>
@@ -30,9 +31,12 @@ export default function Partners() {
             </div>
           </a>
         </div>
+          </div>
+          
 
         <div className="partners-cards">
           <h2>Statics Tracking</h2>
+          <div className="imgs">
           <a href="https://coinmarketcap.com/" rel="noreferrer" target="_blank">
             <div className="card-img">
               <img src={TrackingCoinmarketcap} alt="Tracking Coinmarketcap" />
@@ -44,9 +48,11 @@ export default function Partners() {
             </div>
           </a>
         </div>
+          </div>
 
         <div className="partners-cards">
           <h2>Partners</h2>
+          <div className="imgs">
           <a href="https://finalmenteglobal.com/" rel="noreferrer" target="_blank">
             <div className="card-img">
               <img src={PartnersFinalmente} alt="Partners Finalmente" />
@@ -57,6 +63,7 @@ export default function Partners() {
               <img src={PartnersArion} alt="Partners Arion Coin" />
             </div>
           </a>
+          </div>
         </div>
       </div>
     </div>

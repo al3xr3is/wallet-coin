@@ -34,8 +34,18 @@
   height: 28px;
 }
 
-.container-contact > .form-group > form > button {
-  width: 100px;
-  height: 28px;
-  margin-top: 16px;
+.container-contact > .form-group > form > div > button {
+  width: 12rem;
+  height: 4rem;
+}
+
+.container-contact > .form-group > form > div {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container-contact > .social-media > a{
+  margin-right: 2rem;
 }

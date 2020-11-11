@@ -7,8 +7,7 @@ import CreditCard from './CreditCard'
 
 export default function Get() {
   return(
-    <div className="container-get" id="get">
-      
+    <div className="container-get" id="get">  
       <Wallet />
       <CreditCard />
     </div>
