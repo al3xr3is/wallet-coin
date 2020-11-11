@@ -12,7 +12,7 @@
   grid-template-areas: 
   "card-1 card-2 card-3"
   "card-4 card-5 card-6";
-  gap: 8rem;
+  gap: 1rem 8rem;
   width: 50%;
   margin: auto;
 }
@@ -23,18 +23,18 @@
   background: url('../../../../../assets/img/team-card1.png');
   background-repeat: no-repeat;
   background-position: center;
-  width: 26rem;
-  height: 38rem;
+  width: 21rem;
+  height: 35rem;
 }
 
 .grid-team > .card-1 > img,
 .grid-team > .card-2 > img,
 .grid-team > .card-3 > img {
-  width: 12rem;
-  height: 12rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   border: 0.2rem solid #fff;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .grid-team > .card-1 > h2,
@@ -82,12 +82,15 @@
   grid-area: "card-3";
 }
 .grid-team > .card-4 {
+  justify-self: left;
   grid-area: "card-4";
 }
 .grid-team > .card-5 {
+  justify-self: left;
   grid-area: "card-5";
 }
 .grid-team > .card-6 {
+  justify-self: left;
   grid-area: "card-6";
 }
 
@@ -108,12 +111,11 @@
 .container-team > h1 {
   font-size: 8rem;
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+  padding-top: 8.5rem;
 }
 
 .container-team > p {
   font-size: 3rem;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
 }

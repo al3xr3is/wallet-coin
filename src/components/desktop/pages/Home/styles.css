@@ -1,5 +1,6 @@
 .container-home {
   background       : url('../../../../assets/img/bkg-home-cortado-1920.png');
+  background-color: linear-gradient(180deg, rgba(8, 135, 212, 1) 0%, rgba(8, 135, 212, .5) 100%);
   background-repeat: no-repeat;
   background-size  : cover;
   height           : 100vh;

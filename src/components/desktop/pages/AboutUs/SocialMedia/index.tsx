@@ -29,21 +29,21 @@ export default function SocialMedia() {
   }
 
   const h1Style = {
-    marginTop:"8px",
-    fontSize:"3.6rem"
+    marginTop: "8px",
+    fontSize: "3.6rem"
   }
 
   const pStyle = {
-    fontSize:"2.6rem"
+    fontSize: "2.6rem"
   }
 
   const [value, setValue] = useState(0);
-  const [slides, setSlides] = useState([
-    (<img src={LogoDiscord} alt=""/>),
-    (<img src={LogoTwitter} alt=""/>),
-    (<img src={LogoTelegram} alt=""/>),
-    (<img src={LogoFacebook} alt=""/>),
-  ],)
+  const [slides] = useState([
+    (<img src={LogoDiscord} alt="" />),
+    (<img src={LogoTwitter} alt="" />),
+    (<img src={LogoTelegram} alt="" />),
+    (<img src={LogoFacebook} alt="" />),
+  ])
 
   const onChange = value => {
     setValue(value);
@@ -60,24 +60,24 @@ export default function SocialMedia() {
           onChange={onChange}
           plugins={[
             'infinite',
-           {
-             resolve: autoplayPlugin,
-             options: {
-               interval: 2000,
-             }
-           },
-           {
-            resolve: arrowsPlugin,
-            options: {
-              arrowLeft: <button><img src={ArrowLeft} alt=""/></button>,
-              arrowLeftDisabled:<button><img src={ArrowLeft} alt=""/></button>,
-              arrowRight: <button><img src={ArrowRight} alt=""/></button>,
-              arrowRightDisabled: <button><img src={ArrowRight} alt=""/></button>,
-              addArrowClickHandler: true,
+            {
+              resolve: autoplayPlugin,
+              options: {
+                interval: 2000,
+              }
+            },
+            {
+              resolve: arrowsPlugin,
+              options: {
+                arrowLeft: <button><img src={ArrowLeft} alt="" /></button>,
+                arrowLeftDisabled: <button><img src={ArrowLeft} alt="" /></button>,
+                arrowRight: <button><img src={ArrowRight} alt="" /></button>,
+                arrowRightDisabled: <button><img src={ArrowRight} alt="" /></button>,
+                addArrowClickHandler: true,
+              }
             }
-          }
-         ]}
-         animationSpeed={1000}>
+          ]}
+          animationSpeed={1000}>
 
           <div style={divStyle}>
             <img src={LogoDiscord} alt="logos" />
@@ -109,8 +109,7 @@ export default function SocialMedia() {
           number={slides.length} />
       </div>
 
-      <p>Discord is our main area, where you have all the support you need: <br/>
-Live chat support, quick response time, technical documentation, installation guides...</p>
+      <p>Discord is our main area, where you have all the support you need: <br />Live chat support, quick response time, technical documentation, installation guides...</p>
     </div>
   )
 }

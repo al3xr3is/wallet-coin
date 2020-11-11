@@ -57,13 +57,13 @@
 }
 
 .container-coinspecs > h1 {
-  padding-top: 4rem;
+  padding-top: 10rem;
   font-size: 8rem;
   text-align: center;
 }
 
 .container-coinspecs > p {
-  padding: 4rem;
+  padding: 2rem;
   font-size: 3rem;
   text-align: center;
   margin: 16px 0 16px 0;

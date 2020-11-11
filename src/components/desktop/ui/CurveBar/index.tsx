@@ -18,17 +18,12 @@ export default function Navbar(props) {
 
   return (
     <>
-      <div className="sidebar-desktop">
-        <div className="page-selected">
-          <img src={IconHome} alt="" />
-        </div>
-      </div>
+      <div className="sidebar-desktop">      
 
       <nav className="nav-bar">
         
           <a href="#home"><img src={LogoFinalArion} alt="logo final arion" /></a>
-        
-
+      
         <div className="nav-items">
           <ul>
             <li className="icon"><a href="#home">Home</a></li>
@@ -68,6 +63,7 @@ export default function Navbar(props) {
           </ul>
         </div>
       </nav>
+      </div>
     </>
   )
 }
