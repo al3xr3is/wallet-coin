@@ -1,10 +1,41 @@
 .container-social-media {
-  height: 100vh;
-  background-color: darkred;
-
+  background: url('../../../../../assets/img/bkg-cinza-1920.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: fit-content;
+  padding: 4rem;
 }
 
 .container-social-media > p {
   margin-top: 2rem;
   text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .container-social-media {
+    background: url('../../../../../assets/img/bkg-cinza-1440.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 1024px) {
+  .container-social-media {
+    background: url('../../../../../assets/img/bkg-cinza-1024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  .container-social-media {
+    background: url('../../../../../assets/img/bkg-cinza-768.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-height: 820px) {
+  .container-social-media {
+    height: fit-content;
+  }
 }

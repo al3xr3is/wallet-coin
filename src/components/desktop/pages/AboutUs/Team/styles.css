@@ -1,5 +1,6 @@
 .container-team {
   height: 100vh;
+  overflow: auto;
   background: url('../../../../../assets/img/bkg-branco-1920.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,6 +15,7 @@
   "card-4 card-5 card-6";
   gap: 4rem 8rem;
   width: 50%;
+  max-height: fit-content;
   margin: auto;
 }
 

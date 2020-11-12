@@ -1,6 +1,9 @@
 .container-home {
-  height: 100vh;
-  background-color: chocolate;
+  background       : url('../../../../assets/img/bkg-home-1920.png');
+  background-repeat: no-repeat;
+  background-size  : cover;
+  min-height: 100vh;
+  height: fit-content;
   display: flex;
   justify-content: flex-end;
 }
@@ -44,5 +47,33 @@
 
 .container-home > main > article > .button:hover {
   background-color: #1c7499;
+}
 
+@media (max-width: 1440px) {
+  .container-home {
+    background       : url('../../../../assets/img/bkg-home-1440.png');
+    background-repeat: no-repeat;
+  background-size  : cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-home {
+    background       : url('../../../../assets/img/bkg-home-1024.png');
+    background-repeat: no-repeat;
+  background-size  : cover;
+  }
+}
+@media (max-width: 768px) {
+  .container-home {
+    background       : url('../../../../assets/img/bkg-home-768.png');
+    background-repeat: no-repeat;
+  background-size  : cover;
+  }
+}
+
+@media (max-height: 820px) {
+  .container-home {
+    height: fit-content;
+  }
 }

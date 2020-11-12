@@ -19,9 +19,8 @@ html {
 }
 
 body {
-  width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 h1 {
@@ -39,7 +38,6 @@ p {
   align-items: center;
   text-align: center;
   padding: 14rem 0 2rem 0;
-  background-color: burlywood;
 }
 
 .title h1 {
@@ -68,7 +66,11 @@ p {
   }
 
   .title {
-    padding-top: 10rem;
+    padding-top: 8rem;
+  }
+
+  .fixed-bar {
+    display: none;
   }
 }
 
@@ -77,7 +79,7 @@ p {
     font-size: 32%;
   }
   .title {
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
 }
 
@@ -87,6 +89,33 @@ p {
   }
 
   .title {
-    padding-top: 6rem;
+    padding-top: 4rem;
+  }
+}
+
+@media (max-height: 820px) {
+  .title {
+    padding-top: 1rem;
+  }
+
+  /* .container-what-is-final {
+    height: fit-content;
+  }
+  .container-coinspecs,
+  .container-roadmap,
+  .container-social-media,
+  .container-team,
+  .container-contact,
+  .container-credit-card,
+  .container-wallet,
+  .container-home,
+  .container-partners {
+    height:fit-content;
+  } */
+}
+
+@media (max-height: 640px) {
+  .title {
+    display: none;
   }
 }

@@ -1,6 +1,13 @@
 .container-team {
-  /* height: 100vh; */
-  background-color: darkolivegreen;
+  min-height: 100vh;
+  height: fit-content;
+  background: url('../../../../../assets/img/bkg-branco-1920.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-team > .title {
+  color: var(--font-secondary);
 }
 
 .container-team > .grid-team {
@@ -64,6 +71,28 @@
   font-weight: 500;
 }
 
+@media (max-width: 1440px) {
+  .container-team {
+    background: url('../../../../../assets/img/bkg-branco-1440.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 1024px) {
+  .container-team {
+    background: url('../../../../../assets/img/bkg-branco-1024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  .container-team {
+    background: url('../../../../../assets/img/bkg-branco-768.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 @media (max-width: 768px) {
   .container-team > .grid-team {
     grid-template-columns: repeat(2, auto);
@@ -109,5 +138,11 @@
   .container-team > .grid-team > .card-lead > img {
     width: 16rem;
   height: 16rem;
+  }
+}
+
+@media (max-height: 820px) {
+  .container-team {
+    height: fit-content;
   }
 }

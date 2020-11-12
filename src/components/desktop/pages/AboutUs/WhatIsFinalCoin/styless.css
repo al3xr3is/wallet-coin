@@ -1,12 +1,16 @@
 .container-what-is-final {
-  height: 100vh;
-  background-color: blueviolet;
+  background: url('../../../../../assets/img/bkg-branco-1920.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: fit-content;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
+  color: var(--font-secondary);
 }
 
 .container-what-is-final > section {
@@ -21,4 +25,32 @@
 
 .container-what-is-final > section > p {
   padding: 1.2rem;
+}
+
+@media (max-width: 1440px) {
+  .container-what-is-final {
+    background: url('../../../../../assets/img/bkg-branco-1440.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 1024px) {
+  .container-what-is-final {
+    background: url('../../../../../assets/img/bkg-branco-1024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  .container-what-is-final {
+    background: url('../../../../../assets/img/bkg-branco-768.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-height: 820px) {
+  .container-what-is-final {
+    height: fit-content;
+  }
 }

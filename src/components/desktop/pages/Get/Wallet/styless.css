@@ -1,4 +1,116 @@
 .container-wallet {
-  height: 100vh;
+  min-height: 100vh;
+  height: fit-content;
+  background: url('../../../../../assets/img/bkg-branco-1920.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: deepskyblue;
+  color: var(--font-secondary);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container-wallet > h1 {
+  font-size: 8rem;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+}
+
+.container-wallet > h2 {
+  padding-top: 3rem;
+}
+
+.container-wallet > p {
+  font-size: 2.4rem;
+  padding-bottom: 3rem;
+}
+
+.grid-wallet {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: 
+  "card-1 card-2"
+  "card-3 card-4";
+  width: fit-content;
+  margin: auto;
+  gap: 2rem 1rem;
+}
+
+.grid-wallet > a {
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: column;  
+  text-decoration: none;
+}
+
+.grid-wallet > a > h2 {
+  color: var(--font-secondary);
+  padding-top: 1rem;
+}
+
+.grid-wallet > .card-1 {
+  grid-area: "card-1";
+}
+.grid-wallet > .card-2 {
+  grid-area: "card-2";
+}
+.grid-wallet > .card-3 {
+  grid-area: "card-3";
+}
+.grid-wallet > .card-4 {
+  grid-area: "card-4";
+}
+
+.grid-wallet > a > .card {
+  background-color: #0a74cb7a;
+  width: 300px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1440px) {
+  .container-wallet {
+    background: url('../../../../../assets/img/bkg-branco-1920.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 1024px) {
+  .container-wallet {
+    background: url('../../../../../assets/img/bkg-branco-1024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  .container-wallet {
+    background: url('../../../../../assets/img/bkg-branco-768.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-wallet {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "card-1"
+    "card-2"
+    "card-3"
+    "card-4";
+    width: fit-content;
+    margin: auto;
+    gap: 1rem 1rem;
+  }
+}
+
+@media (max-height: 820px) {
+  .container-wallet {
+    height: fit-content;
+  }
 }

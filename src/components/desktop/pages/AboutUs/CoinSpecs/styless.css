@@ -1,5 +1,9 @@
 .container-coinspecs {
-  background-color: chartreuse;
+  min-height: 100vh;
+  height: fit-content;
+  background: url('../../../../../assets/img/bkg-cinza-1920.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .grid-coinspecs {
@@ -12,7 +16,7 @@
   width: 90%;
   gap: 1.6rem;
   margin: auto;
-  padding-top: 4rem;
+  padding: 4rem;
 }
 
 .grid-coinspecs > .card {
@@ -50,31 +54,35 @@
 }
 
 @media (max-width: 1440px) {
-  
+  .container-coinspecs {
+    background: url('../../../../../assets/img/bkg-cinza-1440.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .container-coinspecs {
-    height: 80vh;
+    background: url('../../../../../assets/img/bkg-cinza-1024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-} */
+}
 
 @media (max-width: 768px) {
+  .container-coinspecs {
+    background: url('../../../../../assets/img/bkg-cinza-768.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .grid-coinspecs > .card > img {
     width: 14rem;
     height: 14rem;
   }
-
-  /* .container-coinspecs {
-    height: 100vh;
-  } */
 }
 
 @media (max-width: 425px) {
-  /* .container-coinspecs {
-    height: 100vh;
-  } */
-
   .grid-coinspecs {
     display: grid;
     grid-template-columns: 1fr;
@@ -96,11 +104,13 @@
 }
 
 @media (max-width: 375px) {
-  /* .container-coinspecs {
-    height: 100vh;
-  } */
-
   .grid-coinspecs > .card {
     height: 18rem; 
+  }
+}
+
+@media (max-height: 820px) {
+  .container-coinspecs {
+    height: fit-content;
   }
 }

@@ -12,12 +12,14 @@ function App() {
   return (
     <div className="App">
       <>
-      <FixedBar />
-      <Home />
-      <AboutUs />
-      <Partners />
-      <Get />
-      <Contact />
+        <div className="fixed-bar">
+          <FixedBar />
+        </div>
+        <Home />
+        <AboutUs />
+        <Partners />
+        <Get />
+        <Contact />
       </>
     </div>
   );

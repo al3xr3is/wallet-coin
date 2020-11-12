@@ -1,13 +1,75 @@
 .container-credit-card {
-  height: 100vh;
-  background-color: green;
+  background: url('../../../../../assets/img/bkg-cinza-1920.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.container-credit-card > main {
+  margin: 2rem;
+}
+
+.container-credit-card > .subtitle {
+  font-size: 2rem;
 }
 
 .container-credit-card > main > a > img {
   width: 100%;
   height: auto;
+  margin: 2rem 0 2rem 0;
+}
+
+.container-credit-card > main > p > a {
+  text-decoration: none;
+  color: #62d8ff;
+}
+
+@media (max-width: 1440px) {
+  .container-credit-card {
+    background: url('../../../../../assets/img/bkg-cinza-1440.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container-credit-card > main > a > img {
+    width: 70%;
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .container-credit-card {
+    background: url('../../../../../assets/img/bkg-cinza-1024.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  .container-credit-card {
+    background: url('../../../../../assets/img/bkg-cinza-768.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container-credit-card > main > a > img {
+    width: 90%;
+    height: auto;
+    margin: 4rem 0 4rem 0;
+  }
+
+  .container-credit-card > .subtitle {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-height: 820px) {
+  .container-credit-card {
+    height: fit-content;
+  }
 }

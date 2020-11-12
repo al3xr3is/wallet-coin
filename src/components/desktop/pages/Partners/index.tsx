@@ -17,7 +17,9 @@ export default function Partners() {
 
       <div className="partners">
         <div className="partners-cards">
+          <div className="title">
           <h2>Exchange Listing</h2>
+          </div>
           <div className="imgs">
           <a href="https://crex24.com/exchange/FINAL-BTC" rel="noreferrer" target="_blank" >
             <div className="card-img">
@@ -66,5 +68,6 @@ export default function Partners() {
         </div>
       </div>
     </div>
+    
   )
 }
