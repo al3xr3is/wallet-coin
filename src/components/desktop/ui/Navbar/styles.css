@@ -20,11 +20,11 @@
     left            : 72.5%;
   }
 
-  .nav-bar {
+  /* .nav-bar {
     position: relative;
     z-index : 20;
     display : flex;
-  }
+  } */
 
   .nav-bar>a>img {
     position: relative;

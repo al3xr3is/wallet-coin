@@ -1,0 +1,106 @@
+.container-coinspecs {
+  background-color: chartreuse;
+}
+
+.grid-coinspecs {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: 
+  "card-1 card-1 card-2 card-3"
+  "card-4 card-5 card-6 card-6";
+  width: 90%;
+  gap: 1.6rem;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.grid-coinspecs > .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a74cb7a;
+  height: 24rem; 
+}
+
+.grid-coinspecs > .card > h2,
+.grid-coinspecs > .card > h3,
+.grid-coinspecs > .card > img {
+  padding: 0.4rem;
+}
+
+.grid-coinspecs > .card-1 {
+  grid-area: card-1;
+}
+.grid-coinspecs > .card-2 {
+  grid-area: card-2;
+}
+.grid-coinspecs > .card-3 {
+  grid-area: card-3;
+}
+.grid-coinspecs > .card-4 {
+  grid-area: card-4;
+}
+.grid-coinspecs > .card-5 {
+  grid-area: card-5;
+}
+.grid-coinspecs > .card-6 {
+  grid-area: card-6;
+}
+
+@media (max-width: 1440px) {
+  
+}
+
+/* @media (max-width: 1024px) {
+  .container-coinspecs {
+    height: 80vh;
+  }
+} */
+
+@media (max-width: 768px) {
+  .grid-coinspecs > .card > img {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  /* .container-coinspecs {
+    height: 100vh;
+  } */
+}
+
+@media (max-width: 425px) {
+  /* .container-coinspecs {
+    height: 100vh;
+  } */
+
+  .grid-coinspecs {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "card-1"
+    "card-2"
+    "card-3"
+    "card-4"
+    "card-5"
+    "card-6";
+    gap: .8rem;
+    margin: auto;
+  }
+
+  .grid-coinspecs > .card {
+    height: 20rem; 
+  }
+}
+
+@media (max-width: 375px) {
+  /* .container-coinspecs {
+    height: 100vh;
+  } */
+
+  .grid-coinspecs > .card {
+    height: 18rem; 
+  }
+}

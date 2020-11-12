@@ -1,0 +1,10 @@
+.container-social-media {
+  height: 100vh;
+  background-color: darkred;
+
+}
+
+.container-social-media > p {
+  margin-top: 2rem;
+  text-align: center;
+}

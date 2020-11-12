@@ -1,0 +1,24 @@
+.container-what-is-final {
+  height: 100vh;
+  background-color: blueviolet;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container-what-is-final > section {
+  margin: 1rem;
+  width: 90vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-what-is-final > section > p {
+  padding: 1.2rem;
+}

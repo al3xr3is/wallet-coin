@@ -1,0 +1,13 @@
+.container-credit-card {
+  height: 100vh;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-credit-card > main > a > img {
+  width: 100%;
+  height: auto;
+}

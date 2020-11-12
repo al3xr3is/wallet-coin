@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+// import './styless.css'
 
 import LogoFinalArion from '../../../../assets/img/icon-00-logo.png'
 
@@ -36,7 +37,7 @@ export default function FixedBar() {
 
         <nav className="nav-bar">
           <div className="page-selected">
-            <img src={icons.Home} alt="" />
+            <a href="#home"><img src={icons.Home} alt="" /></a>
           </div>
           <a href="#home"><img src={LogoFinalArion} alt="logo final arion" /></a>
 

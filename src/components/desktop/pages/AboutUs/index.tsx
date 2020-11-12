@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css'
+//import './styles.css'
 
 import WhatIsFinalCoin from './WhatIsFinalCoin'
 import CoinSpecs from './CoinSpecs'

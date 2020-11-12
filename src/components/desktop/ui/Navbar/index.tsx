@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css'
+//import './styles.css'
 
 import LogoFinalArion from '../../../../assets/img/icon-00-logo.png'
 

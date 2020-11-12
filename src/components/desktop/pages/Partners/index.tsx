@@ -1,7 +1,6 @@
 import React from 'react'
-import './styles.css'
-
-
+//import './styles.css'
+import './styless.css'
 
 import PartnersArion from '../../../../assets/img/partners-arion-.png'
 import PartnersFinalmente from '../../../../assets/img/partners-finalmente.png'

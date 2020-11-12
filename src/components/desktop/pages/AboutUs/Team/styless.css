@@ -1,0 +1,113 @@
+.container-team {
+  /* height: 100vh; */
+  background-color: darkolivegreen;
+}
+
+.container-team > .grid-team {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: 
+  "card-1 card-2 card-3"
+  "card-4 card-5 card-6";
+  gap: 4rem 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.grid-team {
+  display: flex;
+  justify-content: center;
+}
+
+.container-team > .grid-team > .card-lead {
+  background: url('../../../../../assets/img/team-card1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 26rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container-team > .grid-team > .card-lead > p,
+.container-team > .grid-team > .card-lead > h2,
+.container-team > .grid-team > .card-lead > h3 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.container-team > .grid-team > .card-lead > p {
+  font-size: 1.8rem;
+}
+
+.container-team > .grid-team > .card-lead > img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 0.2rem solid #fff;
+  margin-bottom: 1rem;
+}
+
+.container-team > .grid-team > .card-minions > h2,
+.container-team > .grid-team > .card-minions > p {
+  text-align: center;
+  color: var(--font-secondary);
+}
+
+.container-team > .grid-team > .card-minions > h2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .container-team > .grid-team {
+    grid-template-columns: repeat(2, auto);
+  grid-template-rows: 1fr, 1fr, 1fr;
+  gap: 2rem;
+  }
+
+  .container-team > .grid-team > .card-lead {
+    width: 36rem;
+    height: 40rem;
+
+  }
+}
+
+@media (max-width: 700px) {
+  .container-team > .grid-team > .card-lead {
+    width: 30rem;
+    height: 38rem;
+
+  }
+}
+
+@media (max-width: 650px) {
+  .container-team > .grid-team {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "card-1"
+    "card-1"
+    "card-1"
+    "card-1"
+    "card-1"
+    "card-1";
+    gap: 2rem;
+  }
+
+  .container-team > .grid-team > .card-lead {
+    width: 52rem;
+    height: 40rem;
+
+  }
+
+  .container-team > .grid-team > .card-lead > img {
+    width: 16rem;
+  height: 16rem;
+  }
+}

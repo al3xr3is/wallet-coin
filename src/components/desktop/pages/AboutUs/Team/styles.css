@@ -12,7 +12,7 @@
   grid-template-areas: 
   "card-1 card-2 card-3"
   "card-4 card-5 card-6";
-  gap: 1rem 8rem;
+  gap: 4rem 8rem;
   width: 50%;
   margin: auto;
 }
@@ -48,6 +48,13 @@
 .grid-team > .card-2 > h3,
 .grid-team > .card-3 > h3 {
   padding-bottom: 2rem;
+}
+
+.grid-team > .card-1 > p,
+.grid-team > .card-2 > p,
+.grid-team > .card-3 > p {
+  font-size: 1.3rem;
+  padding: 1rem;
 }
 
 .grid-team > .card-4 > img,

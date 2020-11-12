@@ -1,5 +1,6 @@
 import React from 'react'
-import './styles.css'
+//import './styles.css'
+import './styless.css'
 
 import WalletWindows from '../../../../../assets/img/wallet-logo-windows.png'
 import WalletMac from '../../../../../assets/img/wallet-logo-mac.png'
@@ -9,9 +10,10 @@ import WalletLedger from '../../../../../assets/img/wallet-logo-ledger.png'
 export default function Wallet() {
   return (
     <div className="container-wallet" id="wallet">
-      
+      <div className="title">
       <h1>Wallets</h1>
       <p>Download your QT wallet here!</p>
+      </div>
 
       <div className="grid-wallet">
         <a href="https://github.com/" rel="noreferrer" target="_blank">

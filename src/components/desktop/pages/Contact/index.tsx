@@ -1,7 +1,6 @@
 import React from 'react'
-import './styles.css'
-
-
+//import './styles.css'
+import './styless.css'
 
 import SocialDiscord from '../../../../assets/img/contact-icon-discord.png'
 import SocialTwitter from '../../../../assets/img/contact-icon-twitter.png'
@@ -12,9 +11,10 @@ import SocialBitcointalk from '../../../../assets/img/contact-icon-bitcointalk.p
 export default function Contact() {
   return (
     <div className="container-contact" id="contact">
-
+      <div className="title">
       <h1>Contact</h1>
       <p>Feel free to send us an e-mail or get in touch via our social networks!</p>
+      </div>
       <div className="form-group">
         <form action="mailto:info@finalmenteglobal.com" method="post" encType={"text/plain"}>
           <label htmlFor="name">YOUR NAME</label>

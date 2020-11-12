@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './styles.css'
+//import './styles.css'
+import './styless.css'
 
 import Carousel, { Dots, arrowsPlugin, autoplayPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
@@ -51,9 +52,10 @@ export default function SocialMedia() {
 
   return (
     <div className="container-social-media" id="socialmedia">
+      <div className="title">
       <h1>Social Media</h1>
       <p>Through our social media, you may stay up to date, take questions, talk to the whole community and also have direct support with our dev team.</p>
-
+      </div>
       <div className="container-carousel">
         <Carousel
           value={value}
