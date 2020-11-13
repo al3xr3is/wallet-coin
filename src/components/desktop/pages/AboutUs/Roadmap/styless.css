@@ -54,9 +54,14 @@
   width: 40rem;
   height: 16rem;
   padding: 2rem;
+  margin: 1rem;
   border-radius: 40px 10px 40px 10px;
   font-size: 1.4rem;
   text-align: center;
+}
+
+.container-roadmap .card > h3 {
+  margin-top: 2rem;
 }
 
 .container-roadmap > .main-desktop > .row-1 {
@@ -89,6 +94,12 @@
     background: url('../../../../../assets/img/bkg-branco-1024.png');
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+
+@media (max-width: 770px ) and (max-height: 460px) {
+  .container-roadmap > .main-mobile {
+    display: flex;
   }
 }
 
@@ -134,20 +145,23 @@
     justify-content: center;
     align-items: center;
     width: 42rem;
-  height: 12rem;
+    height: 12rem;
   }
 
-  .container-roadmap > .main-mobile > .col-right > .card-3 {
+  .container-roadmap > .main-mobile > .col-right > .card-1 {
     border-radius: 10px 40px 10px 40px;
-  }
-  .container-roadmap > .main-mobile > .col-right > .card-4 {
-    border-radius: 40px 40px 40px 40px;
   }
   .container-roadmap > .main-mobile > .col-right > .card-2 {
     border-radius: 10px 40px 10px 40px;
   }
+  .container-roadmap > .main-mobile > .col-right > .card-3 {
+    border-radius: 10px 40px 10px 40px;
+  }
+  .container-roadmap > .main-mobile > .col-right > .card-4 {
+    border-radius: 10px 40px 10px 40px;
+  }
   .container-roadmap > .main-mobile > .col-right > .card-5 {
-    border-radius: 40px 10px 40px 10px;
+    border-radius: 10px 40px 10px 40px;
   }
     
 }
@@ -168,5 +182,15 @@
 @media (max-height: 820px) {
   .container-roadmap {
     height: fit-content;
+  }
+}
+
+@media (max-height: 460px) {
+  .container-roadmap > .main-mobile {
+    display: none;
+  }
+
+  .container-roadmap > .main-desktop {
+    display: flex;
   }
 }

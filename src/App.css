@@ -31,6 +31,10 @@ p {
   font-size: 2.6rem;
 }
 
+.fixed-bar-mobile {
+  display: none;
+}
+
 .title {
   display: flex;
   flex-direction: column;
@@ -63,6 +67,10 @@ p {
 @media (max-width: 768px) {
   html{
     font-size: 38%;
+  }
+
+  .fixed-bar-mobile {
+    display: inline-block;
   }
 
   .title {

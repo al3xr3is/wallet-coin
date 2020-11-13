@@ -1,8 +1,8 @@
 import React from 'react'
-// import './styles.css'
-import './styless.css'
+import './styles.css'
+// import './styless.css'
 
-import LogoFinalArion from '../../../../assets/img/icon-01-logo.png'
+import LogoFinalArion from '../../../../assets/img/icon-00-logo.png'
 
 import Home from '../../../../assets/img/icon-01-home.png'
 import AboutUs from '../../../../assets/img/icon-02-about.png'
@@ -34,10 +34,8 @@ export default function FixedBar() {
       <div className="fixed-navbar">
 
         <nav className="nav-bar">
-
-              <div>
-              <a href="#home"><img src={LogoFinalArion} alt="logo final arion" /></a>
-              </div>
+          
+          <a href="#home"><img src={LogoFinalArion} alt="logo final arion" /></a>
 
           <div className="nav-items">
             <ul>
@@ -76,7 +74,6 @@ export default function FixedBar() {
               <li className="icon"><a href="#contact">Contact</a></li>
             </ul>
           </div>
-          
           <div className="page-selected">
             <a href="#home"><img src={icons.Home} alt="" /></a>
           </div>

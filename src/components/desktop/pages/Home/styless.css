@@ -68,7 +68,14 @@
   .container-home {
     background       : url('../../../../assets/img/bkg-home-768.png');
     background-repeat: no-repeat;
-  background-size  : cover;
+    background-size  : cover;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .container-home > main {
+    width: 90vw;
   }
 }
 

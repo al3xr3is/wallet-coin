@@ -45,11 +45,21 @@
 .container-team > .grid-team > .card-lead > h2,
 .container-team > .grid-team > .card-lead > h3 {
   text-align: center;
-  padding: 1rem;
+}
+
+.container-team > .grid-team > .card-lead > h2 {
+  padding: 3rem 0 2rem 0;
+  font-size: 2.3rem;
+}
+
+.container-team > .grid-team > .card-lead > h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .container-team > .grid-team > .card-lead > p {
-  font-size: 1.8rem;
+  padding: 2rem;
+  font-size: 1.4rem;
 }
 
 .container-team > .grid-team > .card-lead > img {
@@ -67,8 +77,17 @@
 }
 
 .container-team > .grid-team > .card-minions > h2 {
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 500;
+}
+
+.container-team > .grid-team > .card-minions > p {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.container-team > .grid-team > .card-minions {
+  margin: auto;
 }
 
 @media (max-width: 1440px) {

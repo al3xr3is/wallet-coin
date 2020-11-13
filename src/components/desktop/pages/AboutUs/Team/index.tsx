@@ -46,19 +46,19 @@ export default function Team() {
           </div>
 
           <div className="card-minions">
-            <img src={Cryptocoders} alt="" />
+            <img src={Cryptocoders} alt="Cryptocoders" />
             <h2>Cryptocoders</h2>
             <p>Wallet Developer</p>
           </div>
 
           <div className="card-minions">
-            <img src={Zoras} alt="" />
+            <img src={Zoras} alt="Zoras" />
             <h2>Zoras</h2>
             <p>Designer</p>
           </div>
 
           <div className="card-minions">
-            <img src={Alex} alt="" />
+            <img src={Alex} alt="Al3x R3is" />
             <h2>Al3x R3is</h2>
             <p>Web Developer</p>
           </div>

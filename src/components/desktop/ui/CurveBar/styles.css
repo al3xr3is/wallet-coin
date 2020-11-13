@@ -1,8 +1,0 @@
-.sidebar-desktop {
-  height    : 100px;
-  width     : 100%;
-  background: linear-gradient(180deg, rgba(8, 135, 212, 1) 0%, rgba(8, 135, 212, .5) 100%);
-  position  : relative;
-  z-index   : 2;
-  font-size : 2rem;
-}

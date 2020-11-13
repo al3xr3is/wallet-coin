@@ -53,8 +53,8 @@ export default function SocialMedia() {
   return (
     <div className="container-social-media" id="socialmedia">
       <div className="title">
-      <h1>Social Media</h1>
-      <p>Through our social media, you may stay up to date, take questions, talk to the whole community and also have direct support with our dev team.</p>
+        <h1>Social Media</h1>
+        <p>Through our social media, you may stay up to date, take questions, talk to the whole community and also have direct support with our dev team.</p>
       </div>
       <div className="container-carousel">
         <Carousel
@@ -79,27 +79,35 @@ export default function SocialMedia() {
               }
             }
           ]}
-          animationSpeed={1000}>
+          animationSpeed={500}>
 
           <div style={divStyle}>
-            <img src={LogoDiscord} alt="logos" />
+            <a href="https://discord.gg/ccRq2wE5Be" rel="noreferrer" target="_blank">
+              <img src={LogoDiscord} alt="logos" />
+            </a>
             <h1 style={h1Style}>Discord</h1>
             <p style={pStyle} >Our main area</p>
           </div>
-
           <div style={divStyle}>
-            <img src={LogoTwitter} alt="logos" />
+            <a href="https://twitter.com/final_coin" rel="noreferrer" target="_blank">
+              <img src={LogoTwitter} alt="logos" />
+            </a>
             <h1 style={h1Style}>Twitter</h1>
             <p style={pStyle}>Fresh News</p>
           </div>
 
           <div style={divStyle}>
-            <img src={LogoTelegram} alt="logos" />
+            <a href="https://t.me/finalcoin" rel="noreferrer" target="_blank">
+              <img src={LogoTelegram} alt="logos" />
+            </a>
             <h1 style={h1Style}>Telegram</h1>
             <p style={pStyle}>Interact</p>
           </div>
+
           <div style={divStyle}>
-            <img src={LogoFacebook} alt="logos" />
+            <a href="https://www.facebook.com/finalcoinza" rel="noreferrer" target="_blank">
+              <img src={LogoFacebook} alt="logos" />
+            </a>
             <h1 style={h1Style}>Facebook</h1>
             <p style={pStyle}>Our day to day</p>
           </div>
