@@ -64,6 +64,19 @@ export default function Partners() {
           </a>
           </div>
         </div>
+
+        <div className="partners-cards-mobile-explorer">
+          <div className="imgs">
+          <a href="https://www.google.com" rel="noreferrer" target="_blank">Explorer 1</a>
+          </div>
+          <div className="imgs">
+          <a href="https://www.google.com" rel="noreferrer" target="_blank">Explorer 2</a>
+          </div>
+          <div className="imgs">
+          <a href="https://www.google.com" rel="noreferrer" target="_blank">Explorer 3</a>
+          </div>
+         
+        </div>
       </div>
     </div>
     

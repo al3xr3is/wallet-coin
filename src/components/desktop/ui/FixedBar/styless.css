@@ -5,7 +5,7 @@
   width: 100vw;
   min-height: 10rem;
   height: fit-content;
-  background: linear-gradient(180deg, rgba(8, 135, 212, 1) 0%, rgba(8, 135, 212, .5) 100%);
+  background: linear-gradient(180deg, #0887d4 0%, rgba(89, 116, 133, 0.1) 100%);
   z-index: 50;
   font-size: 2rem;
 }
@@ -16,6 +16,11 @@
   display : flex;
   align-items: center;
   padding-left: 2rem;
+}
+
+svg {
+  display: block;
+  position: fixed;
 }
 
 .nav-bar > .page-selected {

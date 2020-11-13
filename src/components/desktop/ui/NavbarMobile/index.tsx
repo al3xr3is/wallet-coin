@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './styles.css'
 // import './styless.css'
 
-import LogoFinalArion from '../../../../assets/img/icon-00-logo.png'
+// import LogoFinalArion from '../../../../assets/img/icon-00-logo.png'
 
 import Home from '../../../../assets/img/icon-01-home.png'
 import AboutUs from '../../../../assets/img/icon-02-about.png'
@@ -17,66 +17,77 @@ import Contact from '../../../../assets/img/icon-10-contact.png'
 
 export default function FixedBar() {
 
-  const icons = {
-    Home,
-    AboutUs,
-    CoinSpecs,
-    RoadMap,
-    Social,
-    Team,
-    Partners,
-    Wallets,
-    CreditCard,
-    Contact
+  // let burgerRef = useRef()
+  const navRef = useRef<HTMLUListElement>(null)
+   
+
+  function toggleNav() {
+    navRef.current?.classList.toggle('open')
   }
+
   return (
     <>
-      <div className="fixed-navbar">
+      <div className="nav-mobile">
 
-        <nav className="nav-bar">
-          
-          <a href="#home"><img src={LogoFinalArion} alt="logo final arion" /></a>
+        <div className="burger" onClick={toggleNav}>
+          <span>&nbsp;</span>
+          <span>&nbsp;</span>
+          <span>&nbsp;</span>
+        </div>
 
-          <div className="nav-items">
-            <ul>
-              <div className="dropdown">
-                <button className="dropbtn">About Us</button>
-                <div className="dropdown-content">
-                  <a href="#what-is-final">About the Coin</a>
-                  <a href="#coinspecs">Coin Specs</a>
-                  <a href="#socialmedia">Social Media</a>
-                  <a href="#team">Team</a>
-                </div>
-              </div>
-              <div className="dropdown">
-                <button className="dropbtn">Get</button>
-                <div className="dropdown-content">
-                  <a href="#get">Wallet</a>
-                  <a href="#credit-card">Credit Card</a>
-                  <a href="https://github.com" rel="noreferrer" target="_blank">GitHub</a>
-                  <a href="https://bitcointalk.org/index.php?topic=5274631.0" rel="noreferrer" target="_blank">Bitcointalk</a>
-                </div>
-              </div>
-              {/* <li className="icon"><a href="#get">Get</a></li> */}
-              <li className="icon"><a href="#partners">Partners</a></li>
-              <li className="icon"><a href="#roadmap">Roadmap</a></li>
-
-              <div className="dropdown">
-                <button className="dropbtn">Explorer</button>
-                <div className="dropdown-content">
-                  <a href="https://github.com">Explorer 1</a>
-                  <a href="https://github.com">Explorer 2</a>
-                  <a href="https://github.com">Explorer 3</a>
-                </div>
-              </div>
-
-              {/* <li className="icon"><a href="#explorer">Explorer</a></li> */}
-              <li className="icon"><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-          <div className="page-selected">
-            <a href="#home"><img src={icons.Home} alt="" /></a>
-          </div>
+        <nav className="nav-bar-mobile">
+          <ul ref={navRef}>
+            <li>
+              <a href="#home" rel="noreferrer" onClick={toggleNav}>
+                <img src={Home} alt="Home" />
+              </a>
+            </li>
+            <li>
+              <a href="#what-is-final" rel="noreferrer" onClick={toggleNav}>
+                <img src={AboutUs} alt="AboutUs" />
+              </a>
+            </li>
+            <li>
+              <a href="#coinspecs" rel="noreferrer" onClick={toggleNav}>
+                <img src={CoinSpecs} alt="CoinSpecs" />
+              </a>
+            </li>
+            <li>
+              <a href="#roadmap" rel="noreferrer" onClick={toggleNav}>
+                <img src={RoadMap} alt="RoadMap" />
+              </a>
+            </li>
+            <li>
+              <a href="#socialmedia" rel="noreferrer" onClick={toggleNav}>
+                <img src={Social} alt="Social" />
+              </a>
+            </li>
+            <li>
+              <a href="#team" rel="noreferrer" onClick={toggleNav}>
+                <img src={Team} alt="Team" />
+              </a>
+            </li>
+            <li>
+              <a href="#partners" rel="noreferrer" onClick={toggleNav}>
+                <img src={Partners} alt="Partners" />
+              </a>
+            </li>
+            <li>
+              <a href="#get" rel="noreferrer" onClick={toggleNav}>
+                <img src={Wallets} alt="Wallets" />
+              </a>
+            </li>
+            <li>
+              <a href="#credit-card" rel="noreferrer" onClick={toggleNav}>
+                <img src={CreditCard} alt="CreditCard" />
+              </a>
+            </li>
+            <li>
+              <a href="#contact" rel="noreferrer" onClick={toggleNav}>
+                <img src={Contact} alt="Contact" />
+              </a>
+            </li>
+          </ul>
         </nav>
       </div>
     </>
