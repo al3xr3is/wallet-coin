@@ -72,14 +72,12 @@ export default function SocialMedia() {
               resolve: arrowsPlugin,
               options: {
                 arrowLeft: <button><img src={ArrowLeft} alt="" /></button>,
-                arrowLeftDisabled: <button><img src={ArrowLeft} alt="" /></button>,
                 arrowRight: <button><img src={ArrowRight} alt="" /></button>,
-                arrowRightDisabled: <button><img src={ArrowRight} alt="" /></button>,
                 addArrowClickHandler: true,
               }
             }
           ]}
-          animationSpeed={500}>
+          animationSpeed={1000}>
 
           <div style={divStyle}>
             <a href="https://discord.gg/ccRq2wE5Be" rel="noreferrer" target="_blank">
