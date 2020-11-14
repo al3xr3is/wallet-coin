@@ -9,7 +9,7 @@ import Nikita from '../../../../../assets/img/team-nikita.png'
 import Cryptocoders from '../../../../../assets/img/team-cryptocoderz.png'
 import Zoras from '../../../../../assets/img/team-zoras.png'
 import Alex from '../../../../../assets/img/team-alex.png'
-import CardImg from '../../../../../assets/img/team-card1.png'
+// import CardImg from '../../../../../assets/img/team-card1.png'
 
 
 export default function Team() {
