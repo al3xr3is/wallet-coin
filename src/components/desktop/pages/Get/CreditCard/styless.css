@@ -11,20 +11,31 @@
   text-align: center;
 }
 
+.container-credit-card > .subtitle {
+  font-size: 2rem;
+}
+
 .container-credit-card > main {
   margin: 2rem;
   width: 40%;
 }
 
-.container-credit-card > .subtitle {
-  font-size: 2rem;
+.container-credit-card > main > a {
+  position: relative;
+  width: 100%;
 }
 
 .container-credit-card > main > a > img {
   width: 100%;
   height: auto;
   margin: 2rem 0 2rem 0;
+  transition: all .6s;
 }
+.container-credit-card > main > a > img:hover {
+  width: 90%;
+  height: auto;
+}
+
 
 .container-credit-card > main > p > a {
   text-decoration: none;

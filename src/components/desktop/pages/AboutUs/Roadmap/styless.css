@@ -58,6 +58,11 @@
   border-radius: 40px 10px 40px 10px;
   font-size: 1.4rem;
   text-align: center;
+  transition: all .3s ease;
+}
+
+.container-roadmap .card:hover {
+  background-color: #0a74cbb7;
 }
 
 .container-roadmap .card > h3 {

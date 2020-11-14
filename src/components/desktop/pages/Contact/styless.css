@@ -34,7 +34,15 @@
 .container-contact > .form-group > form > div > button {
   width: 12rem;
   height: 4rem;
+  transition: all .3s;
+  border-radius: 3rem;
 }
+
+.container-contact > .form-group > form > div > button:hover {
+  background-color: #29ade5;
+  color: #fff;
+  border: none;
+} 
 
 .container-contact > .form-group > form > div {
   margin-top: 2rem;
@@ -45,6 +53,146 @@
 
 .container-contact > .social-media {
   margin: 2rem 0 2rem 0;
+}
+
+.container-contact > .social-media > a >img:hover {
+    /* CÓDIGO PARA CHAMAR A ANIMAÇÃO */
+    -webkit-animation: rodaroda 1s linear alternate 3;
+    -moz-animation   : rodaroda 1.0s linear infinite;
+    -ms-animation    : rodaroda 1.0s linear infinite;
+    -o-animation     : rodaroda 1.0s linear infinite;
+    animation        : rodaroda .8s linear infinite;
+}
+
+/* KEY FRAMES PARA FAZER OS GIROS */
+@-webkit-keyframes rodaroda {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform   : rotate(0deg);
+        -ms-transform    : rotate(0deg);
+        -o-transform     : rotate(0deg);
+        transform        : rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        -moz-transform   : rotate(180deg);
+        -ms-transform    : rotate(180deg);
+        -o-transform     : rotate(180deg);
+        transform        : rotate(180deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform   : rotate(360deg);
+        -ms-transform    : rotate(360deg);
+        -o-transform     : rotate(360deg);
+        transform        : rotate(360deg);
+    }
+}
+
+@-moz-keyframes rodaroda {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform   : rotate(0deg);
+        -ms-transform    : rotate(0deg);
+        -o-transform     : rotate(0deg);
+        transform        : rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        -moz-transform   : rotate(180deg);
+        -ms-transform    : rotate(180deg);
+        -o-transform     : rotate(180deg);
+        transform        : rotate(180deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform   : rotate(360deg);
+        -ms-transform    : rotate(360deg);
+        -o-transform     : rotate(360deg);
+        transform        : rotate(360deg);
+    }
+}
+
+@-ms-keyframes rodaroda {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform   : rotate(0deg);
+        -ms-transform    : rotate(0deg);
+        -o-transform     : rotate(0deg);
+        transform        : rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        -moz-transform   : rotate(180deg);
+        -ms-transform    : rotate(180deg);
+        -o-transform     : rotate(180deg);
+        transform        : rotate(180deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform   : rotate(360deg);
+        -ms-transform    : rotate(360deg);
+        -o-transform     : rotate(360deg);
+        transform        : rotate(360deg);
+    }
+}
+
+@-o-keyframes rodaroda {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform   : rotate(0deg);
+        -ms-transform    : rotate(0deg);
+        -o-transform     : rotate(0deg);
+        transform        : rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        -moz-transform   : rotate(180deg);
+        -ms-transform    : rotate(180deg);
+        -o-transform     : rotate(180deg);
+        transform        : rotate(180deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform   : rotate(360deg);
+        -ms-transform    : rotate(360deg);
+        -o-transform     : rotate(360deg);
+        transform        : rotate(360deg);
+    }
+}
+
+@keyframes rodaroda {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform   : rotate(0deg);
+        -ms-transform    : rotate(0deg);
+        -o-transform     : rotate(0deg);
+        transform        : rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        -moz-transform   : rotate(180deg);
+        -ms-transform    : rotate(180deg);
+        -o-transform     : rotate(180deg);
+        transform        : rotate(180deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform   : rotate(360deg);
+        -ms-transform    : rotate(360deg);
+        -o-transform     : rotate(360deg);
+        transform        : rotate(360deg);
+    }
 }
 
 .container-contact > .social-media > a{

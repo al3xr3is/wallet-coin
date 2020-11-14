@@ -69,6 +69,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+
+.grid-wallet > a > .card:hover {
+  background-color: #0a74cbdc;
 }
 
 @media (max-width: 1440px) {

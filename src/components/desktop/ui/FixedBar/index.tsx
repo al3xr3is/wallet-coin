@@ -4,7 +4,7 @@ import './styless.css'
 
 import LogoFinalArion from '../../../../assets/img/icon-01-logo.png'
 
-import Home from '../../../../assets/img/icon-01-home.png'
+import SetaHome from '../../../../assets/img/seta-home.png'
 import AboutUs from '../../../../assets/img/icon-02-about.png'
 import CoinSpecs from '../../../../assets/img/icon-03-specs.png'
 import RoadMap from '../../../../assets/img/icon-04-roadmap.png'
@@ -18,7 +18,7 @@ import Contact from '../../../../assets/img/icon-10-contact.png'
 export default function FixedBar() {
 
   const icons = {
-    Home,
+    SetaHome,
     AboutUs,
     CoinSpecs,
     RoadMap,
@@ -78,7 +78,7 @@ export default function FixedBar() {
           </div>
           
           <div className="page-selected">
-            <a href="#home"><img src={icons.Home} alt="" /></a>
+            <a href="#home"><img src={icons.SetaHome} alt="" /></a>
           </div>
 
         </nav>

@@ -16,7 +16,9 @@ export default function CreditCard() {
       </div>
       <main>
         <p>Thank you for requesting our Final Coin credit card,<a href="https://finalmenteglobal.com/"> click on the card below</a> to make your request.</p>
-        <a href="https://finalmenteglobal.com/"><img src={CreditCardImg} alt="credit card finalmente global" /></a>
+        <a href="https://finalmenteglobal.com/">
+          <img src={CreditCardImg} alt="credit card finalmente global" />
+          </a>
         <p>*You will be redirected to our main website Finalmente Global. <br />
         Have the documents in hand to proceed with the registration to request your Final Coin Credit Card.</p>
       </main>

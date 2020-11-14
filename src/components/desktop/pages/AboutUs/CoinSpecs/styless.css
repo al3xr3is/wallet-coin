@@ -25,7 +25,12 @@
   justify-content: center;
   align-items: center;
   background-color: #0a74cb7a;
-  height: 24rem; 
+  height: 24rem;
+  transition: all .3s ease;
+}
+
+.grid-coinspecs > .card:hover {
+  background-color: #0a74cbce;
 }
 
 .grid-coinspecs > .card > h2,
