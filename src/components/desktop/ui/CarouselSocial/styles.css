@@ -1,0 +1,36 @@
+
+/* .carousel-img {
+  background-color: #0a74cb7a;
+  border-radius: 4rem;
+} */
+
+.carousel-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4rem;
+  background-color: #0a74cb7a;
+  border-radius: 2rem;
+  height: 36rem;
+}
+
+.carousel-title {
+  font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+  .carousel-title {
+    display: none;
+  }
+}
+
+@media (max-width: 475px) {
+  .carousel-title {
+    display: none;
+  }
+
+  .carousel-box p {
+    display: none;
+  }
+}

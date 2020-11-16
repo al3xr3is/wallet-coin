@@ -24,7 +24,7 @@ export default function Contact() {
           <label htmlFor="subject">SUBJECT</label>
           <input type="text" name="subject"/>
           <label htmlFor="message">YOUR MESSAGE</label>
-          <textarea name="message" cols={30} rows={10}></textarea>
+          <textarea name="message" cols={30} rows={5}></textarea>
           <div>
             <button type="submit">SEND</button>
           </div>

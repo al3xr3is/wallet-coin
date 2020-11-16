@@ -41,7 +41,8 @@ p {
   justify-content: flex-end;
   align-items: center;
   text-align: center;
-  padding: 16rem 0 2rem 0;
+  padding: 16rem 4rem 2rem 4rem;
+
 }
 
 .title h1 {

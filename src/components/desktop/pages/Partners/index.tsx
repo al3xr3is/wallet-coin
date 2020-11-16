@@ -20,12 +20,12 @@ export default function Partners() {
           <h2>Exchange Listing</h2>
           <div className="imgs">
           <a href="https://crex24.com/exchange/FINAL-BTC" rel="noreferrer" target="_blank" >
-            <div className="card-img">
+            <div className="card-img d-flex justify-content-center">
               <img src={ExchangeCrex24} alt="Exchange Crex24" />
             </div>
           </a>
           <a href="https://www.finexbox.com/market/pair/FINAL-BTC" rel="noreferrer" target="_blank">
-            <div className="card-img">
+            <div className="card-img d-flex justify-content-center">
               <img src={ExchangeFinexbox} alt="Exchange Finexbox" />
             </div>
           </a>
@@ -37,12 +37,12 @@ export default function Partners() {
           <h2>Statics Tracking</h2>
           <div className="imgs">
           <a href="https://coinmarketcap.com/" rel="noreferrer" target="_blank">
-            <div className="card-img">
+            <div className="card-img d-flex justify-content-center">
               <img src={TrackingCoinmarketcap} alt="Tracking Coinmarketcap" />
             </div>
           </a>
           <a href="https://masternodes.online/currencies/FINAL" rel="noreferrer" target="_blank">
-            <div className="card-img">
+            <div className="card-img d-flex justify-content-center">
               <img src={TrackingMNO} alt="Tracking mno" />
             </div>
           </a>
@@ -53,12 +53,12 @@ export default function Partners() {
           <h2>Partners</h2>
           <div className="imgs">
           <a href="https://finalmenteglobal.com/" rel="noreferrer" target="_blank">
-            <div className="card-img">
+            <div className="card-img d-flex justify-content-center">
               <img src={PartnersFinalmente} alt="Partners Finalmente" />
             </div>
           </a>
           <a href="https://arioncoin.com/" rel="noreferrer" target="_blank">
-            <div className="card-img">
+            <div className="card-img d-flex justify-content-center">
               <img src={PartnersArion} alt="Partners Arion Coin" />
             </div>
           </a>

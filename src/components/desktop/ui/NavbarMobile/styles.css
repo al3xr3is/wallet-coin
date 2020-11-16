@@ -4,6 +4,7 @@
   left: 0;
   width: 26%;
   height: 100vh;
+  z-index: 9999999;
 }
 
 .nav-mobile > .burger {
@@ -13,7 +14,7 @@
   height: auto;
   cursor: pointer;
   margin: 2rem;
-  z-index: 9999;
+  z-index: 9999999;
 }
 
 .nav-mobile >.burger> span {

@@ -3,7 +3,7 @@ import React from 'react'
 //import './styles.css'
 import './styless.css'
 
-// import Yohan from '../../../../../assets/img/team-yohan.png'
+import Yohun from '../../../../../assets/img/team-yohan.png'
 import Kobos from '../../../../../assets/img/team-kobos.png'
 import Nikita from '../../../../../assets/img/team-nikita.png'
 import Cryptocoders from '../../../../../assets/img/team-cryptocoderz.png'
@@ -24,7 +24,7 @@ export default function Team() {
         <div className="grid-team">
           <div className="card-lead">
             <h2>Yohun</h2>
-            <img src={Kobos} alt="" />
+            <img src={Yohun} alt="" />
             <h3>Design Lead</h3>
             <p>Finalmente Global Design Leader, Yohan has a lot of experience and knowledge in his field. Always adding value to the projects you work on.</p>
           </div>

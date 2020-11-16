@@ -4,6 +4,7 @@
   background-size: cover;
   min-height: 100vh;
   height: fit-content;
+  color: #fff;
 }
 
 .partners-cards-mobile-explorer {
@@ -44,6 +45,12 @@
 .container-partners > .partners > .partners-cards > .imgs {
   display: flex;
   justify-content: space-around;
+}
+
+.container-partners > .partners > .partners-cards > .imgs > .card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-partners > .partners > .partners-cards > .imgs > a {
