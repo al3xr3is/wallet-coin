@@ -16,7 +16,7 @@ export default function Contact() {
       <p>Feel free to send us an e-mail or get in touch via our social networks!</p>
       </div>
       <div className="form-group">
-        <form action="mailto:info@finalmenteglobal.com" method="post" encType={"text/plain"}>
+        <form action="mailto:info@final-coin.com" method="post" encType={"text/plain"}>
           <label htmlFor="name">YOUR NAME</label>
           <input type="text" name="name"/>
           <label htmlFor="email">YOUR E-MAIL</label>

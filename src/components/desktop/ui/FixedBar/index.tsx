@@ -44,6 +44,7 @@ export default function FixedBar() {
               <div className="dropdown">
                 <button className="dropbtn">About Us</button>
                 <div className="dropdown-content">
+                  <a href="https://github.com/FinalCoin/Final-Coin/wiki" rel="noreferrer" target="_blank">White Paper</a>
                   <a href="#what-is-final">About the Coin</a>
                   <a href="#coinspecs">Coin Specs</a>
                   <a href="#socialmedia">Social Media</a>
@@ -55,8 +56,10 @@ export default function FixedBar() {
                 <div className="dropdown-content">
                   <a href="#get">Wallet</a>
                   <a href="#credit-card">Credit Card</a>
-                  <a href="https://github.com" rel="noreferrer" target="_blank">GitHub</a>
+                  <a href="https://github.com/FinalCoin/Final-Coin" rel="noreferrer" target="_blank">GitHub</a>
                   <a href="https://bitcointalk.org/index.php?topic=5274631.0" rel="noreferrer" target="_blank">Bitcointalk</a>
+                  <a href="https://github.com/FinalCoin/Final-Coin/wiki" rel="noreferrer" target="_blank">Installation Guide</a>
+                  <a href="https://github.com/FinalCoin/Final-Coin/wiki" rel="noreferrer" target="_blank">FAQ</a>
                 </div>
               </div>
               {/* <li className="icon"><a href="#get">Get</a></li> */}
@@ -66,9 +69,9 @@ export default function FixedBar() {
               <div className="dropdown">
                 <button className="dropbtn">Explorer</button>
                 <div className="dropdown-content">
-                  <a href="https://github.com">Explorer 1</a>
-                  <a href="https://github.com">Explorer 2</a>
-                  <a href="https://github.com">Explorer 3</a>
+                  <a href="https://final-coin.ccore.online/" rel="noreferrer" target="_blank">Link 1</a>
+                  <a href="https://www.coinexplorer.net/final-coin" rel="noreferrer" target="_blank">Link 2</a>
+                  <a href="https://explorer.final-coin.com/" rel="noreferrer" target="_blank">Link 3</a>
                 </div>
               </div>
 

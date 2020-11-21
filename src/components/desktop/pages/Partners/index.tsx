@@ -6,7 +6,8 @@ import PartnersArion from '../../../../assets/img/partners-arion-.png'
 import PartnersFinalmente from '../../../../assets/img/partners-finalmente.png'
 import ExchangeCrex24 from '../../../../assets/img/exchange-crex24.png'
 import ExchangeFinexbox from '../../../../assets/img/exchange-finexbox.png'
-import TrackingCoinmarketcap from '../../../../assets/img/tracking-logo-coinmarketcap.png'
+// import TrackingCoinmarketcap from '../../../../assets/img/tracking-logo-coinmarketcap.png'
+import TrackingCoinmarketcap from '../../../../assets/img/tracking-logo-coinmarketcap-csson.png'
 import TrackingMNO from '../../../../assets/img/tracking-logo-mno.png'
 
 export default function Partners() {

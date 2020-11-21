@@ -10,7 +10,7 @@
   color: var(--font-secondary);
 }
 
-.container-team > .grid-team {
+/* .container-team > .grid-team {
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-template-rows: 1fr, 1fr;
@@ -22,14 +22,60 @@
   margin-right: auto;
   padding: 1rem;
   color: #fff;
+} */
+
+.container-team > .grid-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.grid-team {
+.container-team > .grid-team > .container-lead {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-areas:  
+  "card-1 card-2 card-3";
+  gap: 2rem;
+  margin: 4rem;
+}
+
+.container-team > .grid-team > .container-minions {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-areas:
+  "card-4 card-5";
+  gap: 2rem;
+  margin: 4rem;
+}
+
+.zoras {
+  color: #fff;
+  grid-area: card-1;
+}
+.kobus {
+  color: #fff;
+  grid-area: card-2;
+}
+.nikita {
+  color: #fff;
+  grid-area: card-3;
+}
+.cryptocoders {
+  text-align: center;
+  grid-area: card-4;
+}
+.al3x {
+  text-align: center;
+  grid-area: card-5;
+}
+
+/* .grid-team {
   display: flex;
   justify-content: center;
-}
+} */
 
-.container-team > .grid-team > .card-lead {
+.container-team > .grid-team > .container-lead .card-lead {
   background: url('../../../../../assets/img/team-card1.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -42,28 +88,28 @@
   overflow: hidden;
 }
 
-.container-team > .grid-team > .card-lead > p,
-.container-team > .grid-team > .card-lead > h2,
-.container-team > .grid-team > .card-lead > h3 {
+.container-team > .grid-team > .container-lead > .card-lead > p,
+.container-team > .grid-team > .container-lead > .card-lead > h2,
+.container-team > .grid-team > .container-lead > .card-lead > h3 {
   text-align: center;
 }
 
-.container-team > .grid-team > .card-lead > h2 {
-  padding: 3rem 0 2rem 0;
+.container-team > .grid-team > .container-lead > .card-lead > h2 {
+  padding: 2rem 0 2rem 0;
   font-size: 2.3rem;
 }
 
-.container-team > .grid-team > .card-lead > h3 {
+.container-team > .grid-team > .container-lead > .card-lead > h3 {
   font-size: 1.6rem;
   font-weight: 400;
 }
 
-.container-team > .grid-team > .card-lead > p {
+.container-team > .grid-team > .container-lead > .card-lead > p {
   padding: 2rem;
   font-size: 1.4rem;
 }
 
-.container-team > .grid-team > .card-lead > img {
+.container-team > .grid-team > .container-lead > .card-lead > img {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
@@ -71,23 +117,23 @@
   margin-bottom: 1rem;
 }
 
-.container-team > .grid-team > .card-minions > h2,
-.container-team > .grid-team > .card-minions > p {
+.container-team > .grid-team > .container-lead > .card-minions > h2,
+.container-team > .grid-team > .container-lead > .card-minions > p {
   text-align: center;
   color: var(--font-secondary);
 }
 
-.container-team > .grid-team > .card-minions > h2 {
+.container-team > .grid-team > .container-lead > .card-minions > h2 {
   font-size: 2rem;
   font-weight: 500;
 }
 
-.container-team > .grid-team > .card-minions > p {
+.container-team > .grid-team > .container-lead > .card-minions > p {
   font-size: 1.6rem;
   font-weight: 500;
 }
 
-.container-team > .grid-team > .card-minions {
+.container-team > .grid-team > .container-lead > .card-minions {
   margin: auto;
 }
 
@@ -114,13 +160,23 @@
 }
 
 @media (max-width: 768px) {
-  .container-team > .grid-team {
+  /* .container-team > .grid-team {
     grid-template-columns: repeat(2, auto);
   grid-template-rows: 1fr, 1fr, 1fr;
   gap: 2rem;
+  } */
+
+  .container-team > .grid-team > .container-minions {
+    display: flex;
+    flex-direction: column;
   }
 
-  .container-team > .grid-team > .card-lead {
+  .container-team > .grid-team > .container-lead {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-team > .grid-team > .container-lead > .card-lead {
     width: 36rem;
     height: 40rem;
 

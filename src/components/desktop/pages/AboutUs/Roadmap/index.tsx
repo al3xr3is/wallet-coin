@@ -15,21 +15,6 @@ export default function Roadmap() {
       <p>2020 - 2021</p>
       </div>
       <main className="main-desktop">
-      <div className="row-1">
-        <div className="card card-1">
-          <h2>Q1 2021</h2>
-          <h3>Web Wallet / Android App</h3>
-        </div>
-
-        <div className="card card-2">
-          <h2>Q3 2021</h2>
-          <h3>Intgration of new partnerships and ledger software.</h3>
-        </div>
-      </div>
-      <div className="row-2">
-        <img className="roadmap-desktop" src={RoadmapLine} alt=""/>
-        <img className="roadmap-mobile" src={RoadmapLineMobile} alt=""/>
-      </div>
       <div className="row-3">
         <div className="card card-3">
           <h2>Q4 2020</h2>
@@ -42,6 +27,23 @@ export default function Roadmap() {
         <div className="card card-5">
           <h2>Q4 2021</h2>
           <h3>Launch of cryptocurrency exchange - Dex exchange.</h3>
+        </div>
+      </div>
+      <div className="row-2">
+        <img className="roadmap-desktop" src={RoadmapLine} alt=""/>
+        <img className="roadmap-mobile" src={RoadmapLineMobile} alt=""/>
+      </div>
+      
+
+      <div className="row-1">
+        <div className="card card-1">
+          <h2>Q1 2021</h2>
+          <h3>Web Wallet / Android App</h3>
+        </div>
+
+        <div className="card card-2">
+          <h2>Q3 2021</h2>
+          <h3>Integration of new partnerships and ledger software.</h3>
         </div>
       </div>
       </main>

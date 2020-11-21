@@ -16,27 +16,28 @@ export default function Wallet() {
       </div>
 
       <div className="grid-wallet">
-        <a href="https://github.com/" rel="noreferrer" target="_blank">
+        <a href="https://github.com/FinalCoin/Final-Coin/releases" rel="noreferrer" target="_blank">
           <div className="card card-1">
             <img src={WalletWindows} alt="logo windows" />
           </div>
           <h2>Windows</h2>
         </a>
-        <a href="https://github.com/" rel="noreferrer" target="_blank">
+        <a href="https://github.com/FinalCoin/Final-Coin/releases" rel="noreferrer" target="_blank">
           <div className="card card-2">
             <img src={WalletMac} alt="logo mac" />
           </div>
           <h2>Mac</h2>
         </a>
-        <a href="https://github.com/" rel="noreferrer" target="_blank">
+        <a href="https://github.com/FinalCoin/Final-Coin/releases" rel="noreferrer" target="_blank">
           <div className="card card-3">
             <img src={WalletLinux} alt="logo linux" />
           </div>
           <h2>Linux</h2>
         </a>
-        <a href="https://github.com/" rel="noreferrer" target="_blank">
+        <a href="#wallet" rel="noreferrer">
           <div className="card card-4">
             <img src={WalletLedger} alt="logo ledger" />
+            <p className="comming-soon" >Coming soon!</p>
           </div>
           <h2>Ledger Wallet</h2>
         </a>

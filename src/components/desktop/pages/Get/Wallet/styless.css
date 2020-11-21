@@ -77,6 +77,21 @@
   background-color: #0a74cbdc;
 }
 
+.comming-soon {
+  display: none;
+  color: #fff;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.grid-wallet > a > .card-4:hover img {
+  display: none;
+}
+
+.grid-wallet > a > .card-4:hover .comming-soon {
+  display: block;
+}
+
 @media (max-width: 1440px) {
   .container-wallet {
     background: url('../../../../../assets/img/bkg-branco-1920.png');

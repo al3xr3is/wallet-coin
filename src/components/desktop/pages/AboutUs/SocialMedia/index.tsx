@@ -9,7 +9,7 @@ export default function SocialMedia() {
     <div className="container-social-media" id="socialmedia">
       <div className="title">
         <h1>Social Media</h1>
-        <p>Through our social media, you may stay up to date, take questions, talk to the whole community and also have direct support with our dev team.</p>
+        <p>Through our social media, you can stay up to date, aks questions, talk to the whole community and also have direct support from our team.</p>
       </div>
 
       <div className="container-carousel">

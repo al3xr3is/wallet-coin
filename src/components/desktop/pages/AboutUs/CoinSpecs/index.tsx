@@ -15,13 +15,14 @@ export default function CoinSpecs() {
       <div className="container-coinspecs" id="coinspecs">
         <div className="title">
           <h1>Coin Specs</h1>
-          <p>Here you will find everything you need to know about Final Coin specifications, <br /> from its algorithm to the time of the blockchain.</p>
+          <p>Here you will find everything you need to know about Final Coin specifications, <br /> from its algorithm to the timing of the blockchain.</p>
         </div>
 
         <div className="grid-coinspecs">
           <div className="card card-1">
             <h2>MAX SUPPLY</h2>
-            <h3>10 BILLION</h3>
+            <h3>IMS System</h3>
+            <h5>Inflation managed supply via burning of coins</h5>
             <img src={Icon1} alt="" />
           </div>
           <div className="card card-2">
