@@ -73,9 +73,9 @@
     height: auto;
   }
 
-  .container-what-is-final > section > article > p {
+  /* .container-what-is-final > section > article > p {
     display: none;
-  }
+  } */
 }
 
 @media (max-height: 820px) {

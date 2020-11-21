@@ -69,9 +69,9 @@ export default function FixedBar() {
               <div className="dropdown">
                 <button className="dropbtn">Explorer</button>
                 <div className="dropdown-content">
-                  <a href="https://final-coin.ccore.online/" rel="noreferrer" target="_blank">Link 1</a>
-                  <a href="https://www.coinexplorer.net/final-coin" rel="noreferrer" target="_blank">Link 2</a>
-                  <a href="https://explorer.final-coin.com/" rel="noreferrer" target="_blank">Link 3</a>
+                  <a href="https://final-coin.ccore.online/" rel="noreferrer" target="_blank">CCCore</a>
+                  <a href="https://www.coinexplorer.net/final-coin" rel="noreferrer" target="_blank">Coinexplorer.net</a>
+                  <a href="https://explorer.final-coin.com/" rel="noreferrer" target="_blank">Final-Coin</a>
                 </div>
               </div>
 
